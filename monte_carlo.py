@@ -25,7 +25,7 @@ if selected == "Home":
     st.markdown(
         """
         ### Want to learn more?
-        - Jump into our [documentation](https://docs.google.com/document/d/1ug2qp4cOOrZnAm5UwRgHmMflDQrRTfqs/edit?usp=sharing&ouid=100564633130393337897&rtpof=true&sd=true)
+        - Jump into our [documentation](https://drive.google.com/file/d/1F78Qi8o2r6Uij9uRyn26FiaD7iQQ2bTx/view?usp=sharing)
         - Ask a question in my [Facebook account](https://www.facebook.com/liageba.aiper)
         ### See more complex demos
         - Risk Analysis using [monte carlo simulation](https://www.riskamp.com/files/Risk%20Analysis%20using%20Monte%20Carlo%20Simulation.pdf)
