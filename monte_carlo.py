@@ -130,7 +130,9 @@ Visualizing the difference between the observed data and the simulated data help
 
 Conclusion:
 - This project demonstrates how Monte Carlo Simulation can effectively model and analyze risk using Python. By generating synthetic data, building models, and running simulations, we can gain valuable insights into uncertainties and potential risks.
+
 Key Takeaways:
+
 - Hands-on experience with Python libraries like NumPy, Pandas, Matplotlib, and Scikit-learn.
 Understanding the significance of simulation modeling in risk analysis.
 Building confidence to apply these concepts to real-world projects.
