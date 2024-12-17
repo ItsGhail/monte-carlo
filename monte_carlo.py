@@ -97,12 +97,12 @@ ax.set_ylabel("Frequency", fontsize=14)
  These visualizations help in identifying trends, correlations, and outliers.
 
 Modeling:
-Normal Distribution-Based Simulation in Monte Carlo simulations, the Normal Distribution is used to model scenarios where the input variables (such as project costs, stock returns, or production times) follow a normal distribution. This type of distribution is defined by two parameters:
+- Normal Distribution-Based Simulation in Monte Carlo simulations, the Normal Distribution is used to model scenarios where the input variables (such as project costs, stock returns, or production times) follow a normal distribution. This type of distribution is defined by two parameters:
 Mean: The central value around which data points tend to cluster.
 Standard Deviation: A measure of the spread or variability around the mean.
 
 Simulation:
-In the simulation step, the goal is to use the model to generate potential outcomes under different conditions. You might simulate multiple scenarios by varying input parameters and observing how the model behaves.
+- In the simulation step, the goal is to use the model to generate potential outcomes under different conditions. You might simulate multiple scenarios by varying input parameters and observing how the model behaves.
 
 Monte Carlo Simulations:
   Monte Carlo methods are widely used for simulations that involve uncertainty. In this approach, the model is run many times using random inputs (based on predefined distributions) to assess the range of possible outcomes. The NumPy library can help with this:
@@ -120,8 +120,8 @@ simulated_data = np.random.normal(loc=0, scale=1, size=1000)
 Sensitivity Analysis:
   This involves testing how sensitive your model is to changes in input parameters. By varying key assumptions, you can observe how the output changes and identify the most influential factors in the model.
 
-Evaluation and Analysis
-The provided histogram compares the simulated outcomes with a normal distribution curve (black line). This curve serves as the benchmark.
+Evaluation and Analysis:
+- The provided histogram compares the simulated outcomes with a normal distribution curve (black line). This curve serves as the benchmark.
 Assess whether the histogram closely follows the theoretical distribution.
 Use the mean and standard deviation:
 The simulated data should have a mean and standard deviation close to the input parameters.
@@ -129,9 +129,9 @@ Visual Analysis:
 Visualizing the difference between the observed data and the simulated data helps assess the model's accuracy. For example, you might plot the residuals (differences between predicted and actual values) to check for any patterns that suggest model improvements.
 
 Conclusion:
-In conclusion, this project demonstrates how Monte Carlo Simulation can effectively model and analyze risk using Python. By generating synthetic data, building models, and running simulations, we can gain valuable insights into uncertainties and potential risks.
+- This project demonstrates how Monte Carlo Simulation can effectively model and analyze risk using Python. By generating synthetic data, building models, and running simulations, we can gain valuable insights into uncertainties and potential risks.
 Key Takeaways:
-Hands-on experience with Python libraries like NumPy, Pandas, Matplotlib, and Scikit-learn.
+- Hands-on experience with Python libraries like NumPy, Pandas, Matplotlib, and Scikit-learn.
 Understanding the significance of simulation modeling in risk analysis.
 Building confidence to apply these concepts to real-world projects.
 
