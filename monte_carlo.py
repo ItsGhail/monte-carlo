@@ -40,15 +40,10 @@ elif selected == "About":
     st.write("Provide a detailed explanation of the Monte Carlo simulation process and its application in risk analysis. You can add a section on the significance of the project and its learning objectives.")
     st.title("Monte Carlo Simulation for Risk Analysis")
     st.write("""
-       1. Introduction:
-The purpose of this project is to gain hands-on experience with modeling and simulation using Python.
-Modeling and simulation are essential tools in a variety of fields, including engineering, finance, healthcare,
-and environmental sciences, where real-world data and systems are often too complex to analyze directly.
-By using Python, you can generate synthetic data, apply modeling techniques, and run simulations to better
-understand and predict the behavior of these systems.
-Python is a versatile language with a rich ecosystem of libraries and frameworks designed for data analysis,
-scientific computing, and machine learning. This project will leverage these tools to model complex
-systems, simulate their behavior under different conditions, and evaluate the performance of the models.
+Introduction:
+ Introduction:
+This project focuses on modeling and simulation using Python, with an emphasis on Monte Carlo Simulation for risk analysis. The primary goal is to gain hands-on experience with Python libraries and tools widely used for these tasks. By working through this project, you will understand the steps involved in generating data, analyzing it, building models, and simulating outcomes to evaluate risk.
+
 2. Project Overview:
 The project is structured into several steps. Each step builds upon the previous one, starting from data
 generation to simulation and model evaluation. Let’s break down the steps in more detail:
