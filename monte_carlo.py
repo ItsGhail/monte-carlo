@@ -63,6 +63,13 @@ Using the numpy library, you can generate random samples from a normal distribut
 - Random Sampling with Numpy:
   The NumPy library can generate random numbers from various distributions (e.g., uniform, normal, exponential). For example, if you want to simulate a financial system with normally distributed returns, you could use:
 
+Python code:             
+                         
+import numpy as np
+
+# Simulated data for illustration
+    simulated_data = np.random.normal(loc=0, scale=1, size=1000)
+
     """)
 
 elif selected == "Chart":
