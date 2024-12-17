@@ -71,7 +71,8 @@ simulated_data = np.random.normal(loc=0, scale=1, size=1000)
 Here, `loc` is the mean (0), `scale` is the standard deviation (1), and `size` is the number of data points (1000).
 
 Exploratory Data Analysis (EDA):
-EDA is a crucial step to understand the characteristics and relationships in your data. By visualizing the data and calculating summary statistics, you can identify patterns, detect outliers, and get a sense of the data's distribution. Key activities during EDA include:
+
+- EDA is a crucial step to understand the characteristics and relationships in your data. By visualizing the data and calculating summary statistics, you can identify patterns, detect outliers, and get a sense of the data's distribution. Key activities during EDA include:
 
 - Statistical Summary:
   Use pandas to calculate basic statistics (mean, median, standard deviation) of your data:
