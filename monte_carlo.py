@@ -55,6 +55,14 @@ Modeling: Apply a suitable modeling technique to represent the problem.
 Simulation: Use Monte Carlo methods to simulate outcomes based on the model.
 Evaluation and Analysis: Assess the model’s performance using metrics and visualization tools.
 Conclusion: Summarize results and reflect on the importance of Python tools in risk analysis.
+
+Data Generation:
+
+Using the numpy library, you can generate random samples from a normal distribution with a given mean and standard deviation. Data generation is the first step in the project. The goal is to create synthetic data that mimics real-world systems or processes. This data can be generated using different probability distributions or mathematical models. Some common techniques include:
+
+- Random Sampling with Numpy:
+  The NumPy library can generate random numbers from various distributions (e.g., uniform, normal, exponential). For example, if you want to simulate a financial system with normally distributed returns, you could use:
+
     """)
 
 elif selected == "Chart":
