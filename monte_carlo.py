@@ -66,9 +66,7 @@ Using the numpy library, you can generate random samples from a normal distribut
 Python code:             
                          
 import numpy as np
-
-# Simulated data for illustration
-    simulated_data = np.random.normal(loc=0, scale=1, size=1000)
+simulated_data = np.random.normal(loc=0, scale=1, size=1000)
 
     """)
 
