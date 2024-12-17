@@ -41,8 +41,10 @@ elif selected == "About":
     st.title("Monte Carlo Simulation for Risk Analysis")
     st.write("""
 Introduction:
- Introduction:
-This project focuses on modeling and simulation using Python, with an emphasis on Monte Carlo Simulation for risk analysis. The primary goal is to gain hands-on experience with Python libraries and tools widely used for these tasks. By working through this project, you will understand the steps involved in generating data, analyzing it, building models, and simulating outcomes to evaluate risk.
+This project focuses on modeling and simulation using Python, with an emphasis on Monte Carlo Simulation for risk analysis. 
+The primary goal is to gain hands-on experience with Python libraries and tools widely used for these tasks. 
+By working through this project, you will understand the steps involved in generating data, analyzing it, building models, 
+and simulating outcomes to evaluate risk.
 
 2. Project Overview:
 The project is structured into several steps. Each step builds upon the previous one, starting from data
