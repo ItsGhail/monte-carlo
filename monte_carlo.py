@@ -63,11 +63,77 @@ Using the numpy library, you can generate random samples from a normal distribut
 - Random Sampling with Numpy:
   The NumPy library can generate random numbers from various distributions (e.g., uniform, normal, exponential). For example, if you want to simulate a financial system with normally distributed returns, you could use:
 
-#Python code:   
+Python code:   
 
 import numpy as np
+simulated_data = np.random.normal(loc=0, scale=1, size=1000)
+
+Here, `loc` is the mean (0), `scale` is the standard deviation (1), and `size` is the number of data points (1000).
+
+Exploratory Data Analysis (EDA):
+EDA is a crucial step to understand the characteristics and relationships in your data. By visualizing the data and calculating summary statistics, you can identify patterns, detect outliers, and get a sense of the data's distribution. Key activities during EDA include:
+
+- Statistical Summary:
+  Use pandas to calculate basic statistics (mean, median, standard deviation) of your data:
+
+Python code:  
+
+import pandas as pd
+dataframe = pd.DataFrame(simulated_data, columns=["Simulated Outcome"])  
+
+- Visualization
+  Matplotlib and seaborn are useful for creating plots such as histograms, scatter plots, and box plots. For example, a histogram can show the distribution of your data:
+
+
+Python code:
+
+import matplotlib.pyplot as plt
+ax.hist(simulated_data, bins=50, color='lightcoral', edgecolor='black', alpha=0.7, density=True)
+
+ax.set_title("Distribution of Simulation Outcomes", fontsize=16, fontweight='bold')
+ax.set_xlabel("Outcome", fontsize=14)
+ax.set_ylabel("Frequency", fontsize=14)
+
+ These visualizations help in identifying trends, correlations, and outliers.
+
+Modeling:
+Normal Distribution-Based Simulation in Monte Carlo simulations, the Normal Distribution is used to model scenarios where the input variables (such as project costs, stock returns, or production times) follow a normal distribution. This type of distribution is defined by two parameters:
+Mean: The central value around which data points tend to cluster.
+Standard Deviation: A measure of the spread or variability around the mean.
+
+Simulation:
+In the simulation step, the goal is to use the model to generate potential outcomes under different conditions. You might simulate multiple scenarios by varying input parameters and observing how the model behaves.
+
+Monte Carlo Simulations:
+  Monte Carlo methods are widely used for simulations that involve uncertainty. In this approach, the model is run many times using random inputs (based on predefined distributions) to assess the range of possible outcomes. The NumPy library can help with this:
+
+ Python code:
+
+elif selected == "Chart":
+    st.sidebar.header("Simulation Parameters")
+    num_simulations = st.sidebar.number_input("Number of Simulations", min_value=100, max_value=100000, value=1000, step=100)
+    mean = st.sidebar.number_input("Mean of Distribution", value=100.0)
+    std_dev = st.sidebar.number_input("Standard Deviation of Distribution", value=20.0)
 
 simulated_data = np.random.normal(loc=0, scale=1, size=1000)
+
+Sensitivity Analysis:
+  This involves testing how sensitive your model is to changes in input parameters. By varying key assumptions, you can observe how the output changes and identify the most influential factors in the model.
+
+Evaluation and Analysis
+The provided histogram compares the simulated outcomes with a normal distribution curve (black line). This curve serves as the benchmark.
+Assess whether the histogram closely follows the theoretical distribution.
+Use the mean and standard deviation:
+The simulated data should have a mean and standard deviation close to the input parameters.
+Visual Analysis:
+Visualizing the difference between the observed data and the simulated data helps assess the model's accuracy. For example, you might plot the residuals (differences between predicted and actual values) to check for any patterns that suggest model improvements.
+
+Conclusion:
+In conclusion, this project demonstrates how Monte Carlo Simulation can effectively model and analyze risk using Python. By generating synthetic data, building models, and running simulations, we can gain valuable insights into uncertainties and potential risks.
+Key Takeaways:
+Hands-on experience with Python libraries like NumPy, Pandas, Matplotlib, and Scikit-learn.
+Understanding the significance of simulation modeling in risk analysis.
+Building confidence to apply these concepts to real-world projects.
 
     """)
 
